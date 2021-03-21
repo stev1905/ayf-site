@@ -1,0 +1,9 @@
+#testimonials {
+    height: 100vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#testimonials .section-image:before{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}

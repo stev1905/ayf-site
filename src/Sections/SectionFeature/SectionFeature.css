@@ -1,0 +1,12 @@
+#features {
+    height: 100vh !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.features-4 {
+    padding-top: 15px !important;
+}
+.features-4 .info-horizontal{
+    padding-top: 20px !important;
+}

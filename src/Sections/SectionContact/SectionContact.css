@@ -1,0 +1,15 @@
+#contact-us {
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-contact {
+    background-color: #abc3c3 !important;
+    margin-bottom: 5% !important;
+}
+
+#contact-us .section-image:before{
+    background-color: #fff !important;
+}
