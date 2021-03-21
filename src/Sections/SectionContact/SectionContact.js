@@ -1,16 +1,15 @@
 import React from "react";
 // react plugin used to create google maps
 import {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  Marker,
+  //withScriptjs,
+  //withGoogleMap,
+  //GoogleMap,
+  //Marker,
 } from "react-google-maps";
 // reactstrap components
 import {
   Button,
   Card,
-  CardHeader,
   CardBody,
   CardTitle,
   Label,
@@ -24,7 +23,7 @@ import {
 
 import './SectionContact.css'
 
-// core components
+/* // core components
 const MapWrapper = withScriptjs(
   withGoogleMap((props) => (
     <GoogleMap
@@ -213,7 +212,7 @@ const MapWrapper = withScriptjs(
       <Marker position={{ lat: 44.445248, lng: 26.099672 }} />
     </GoogleMap>
   ))
-);
+); */
 
 function SectionContactUs() {
   return (
@@ -352,6 +351,7 @@ function SectionContactUs() {
                   <a
                     href="https://www.creative-tim.com?ref=pkpr-black-footer"
                     target="_blank"
+                    rel="noreferrer"
                     className="mr-1"
                   >
                     Creative Tim
@@ -361,6 +361,7 @@ function SectionContactUs() {
                   <a
                     href="http://blog.creative-tim.com/?ref=pkpr-black-footer"
                     target="_blank"
+                    rel="noreferrer"
                     className="mr-1"
                   >
                     Blog
@@ -370,6 +371,7 @@ function SectionContactUs() {
                   <a
                     href="https://www.creative-tim.com/license?ref=pkpr-black-footer"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Licenses
                   </a>

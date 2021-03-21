@@ -2,16 +2,10 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
   Card,
   CardBody,
   CardFooter,
   CardTitle,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
   Container,
   Row,
   Col,
@@ -22,9 +16,9 @@ import './SectionPricing.css';
 // core components
 
 function SectionPricing() {
-  const [activePill, setActivePill] = React.useState("1");
+ /*  const [activePill, setActivePill] = React.useState("1");
   // pills for the last pricing
-  const [pillActive, setPillActive] = React.useState("personal");
+  const [pillActive, setPillActive] = React.useState("personal"); */
   return (
     <>
       <div className="section section-pricing cd-section" id="pricing">

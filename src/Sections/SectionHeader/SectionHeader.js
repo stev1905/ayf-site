@@ -15,14 +15,11 @@ import {
   Container,
   Row,
   Col,
-  Carousel,
-  CarouselItem,
-  CarouselIndicators,
 } from "reactstrap";
 
 import './SectionHeader.css'
 // core components
-const items = [
+/* const items = [
   {
     backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/chris-api-project.appspot.com/o/8.png?alt=media&token=512854da-9b4f-47a5-8932-877dfb93d728")`, 
     content: (
@@ -79,13 +76,13 @@ const items = [
     altText: "",
     caption: "",
   }
-];
+]; */
 
 function SectionHeader() {
   // carousel - header 3
-  const [activeIndex, setActiveIndex] = React.useState(0);
-  const [animating, setAnimating] = React.useState(false);
-  const onExiting = () => {
+  //const [activeIndex, setActiveIndex] = React.useState(0);
+  //const [animating, setAnimating] = React.useState(false);
+ /*  const onExiting = () => {
     setAnimating(true);
   };
   const onExited = () => {
@@ -104,11 +101,11 @@ function SectionHeader() {
   const goToIndex = (newIndex) => {
     if (animating) return;
     setActiveIndex(newIndex);
-  };
+  }; */
   // video - header 4
-  const [videoPlaying, setVideoPlaying] = React.useState(false);
-  const videoRef = React.createRef();
-  const videoButtonClick = () => {
+ /*  const [videoPlaying, setVideoPlaying] = React.useState(false);
+  const videoRef = React.createRef(); */
+/*   const videoButtonClick = () => {
     if (videoPlaying) {
       setVideoPlaying(false);
       videoRef.current.pause();
@@ -116,7 +113,7 @@ function SectionHeader() {
       setVideoPlaying(true);
       videoRef.current.play();
     }
-  };
+  }; */
   return (
     <>
       <div className="section section-header cd-section" id="headers">
@@ -207,7 +204,7 @@ function SectionHeader() {
               <Container>
                 <Row>
                   <Col className="ml-auto mr-auto text-center" md="8">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/chris-api-project.appspot.com/o/newTransparent.png?alt=media&token=3fe0cab3-357f-4eb3-9538-7b2a12af112e" />
+                    <img alt="" src="https://firebasestorage.googleapis.com/v0/b/chris-api-project.appspot.com/o/newTransparent.png?alt=media&token=3fe0cab3-357f-4eb3-9538-7b2a12af112e" />
                     <h5 className="description">
                     encourages women to prioritize 
                     themselves through style, self-love, and by showcasing 

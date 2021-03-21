@@ -9,15 +9,12 @@ import {
   Container,
   Row,
   Col,
-  Carousel,
-  CarouselItem,
-  CarouselIndicators,
 } from "reactstrap";
 
 import './SectionTestimony.css'
 
 // core components
-const items = [
+/* const items = [
   {
     src: "https://s3.amazonaws.com/uifaces/faces/twitter/mlane/128.jpg",
     content: (
@@ -92,11 +89,11 @@ const items = [
     altText: "",
     caption: "",
   },
-];
+]; */
 
 function SectionTestimonials() {
   // carousel - TESTIMONIALS 2
-  const [activeIndex, setActiveIndex] = React.useState(0);
+/*   const [activeIndex, setActiveIndex] = React.useState(0);
   const [animating, setAnimating] = React.useState(false);
   const onExiting = () => {
     setAnimating(true);
@@ -117,7 +114,7 @@ function SectionTestimonials() {
   const goToIndex = (newIndex) => {
     if (animating) return;
     setActiveIndex(newIndex);
-  };
+  }; */
   return (
     <>
       <div
