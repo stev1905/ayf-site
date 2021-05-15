@@ -4,9 +4,18 @@
 
 .card-pricing.card {
     background: #abc3c3 !important;
-    height: 447px;
+    height: 550px;
 }
 
-.title {
-    width: 575px;
+div.card-pricing.card p.card-description {
+    font-weight: 500;
+}
+
+div.card-pricing.card .card-title {
+    font-weight: 500;
+    height: 55px;
+}
+
+.section.section-pricing.cd-section {
+    padding-top: 0px;
 }

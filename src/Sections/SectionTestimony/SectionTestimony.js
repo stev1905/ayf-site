@@ -132,10 +132,9 @@ function SectionTestimonials() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto text-center" md="6">
-                <h2 className="title">Our Clients Love Us</h2>
+                <h2 className="title">Clients testimonials</h2>
                 <h5 className="description">
-                  You need more information? Check what other persons are saying
-                  about our product. They are very happy with their purchase.
+                Hear what people have to say about working with AYF.
                 </h5>
               </Col>
             </Row>
@@ -148,13 +147,11 @@ function SectionTestimonials() {
                   </div>
                   <CardBody>
                     <p className="card-description">
-                      Your products, all the kits that I have downloaded from
-                      your site and worked with are sooo cool! I love the color
-                      mixtures, cards... everything. Keep up the great work!
+                    "Crystal is a great stylist and knows her fashion. When she styled me I felt great and very confident. I know she knew what she was doing so I put myself in her hands and I was not disappointed.""
                     </p>
                     <CardFooter>
-                      <CardTitle tag="h4">Alec Thompson</CardTitle>
-                      <h6 className="card-category">@alecthompson</h6>
+                      <CardTitle tag="h4">Gretchen Vila</CardTitle>
+                      <h6 className="card-category">@GretchenVila</h6>
                       <div className="card-avatar">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           <img
@@ -203,13 +200,14 @@ function SectionTestimonials() {
                   </div>
                   <CardBody>
                     <p className="card-description">
-                      "Your products, all the kits that I have downloaded from
-                      your site and worked with are sooo cool! I love the color
-                      mixtures, cards... everything. Keep up the great work!"
+                    “I am so happy I found Awaken Your Fashionista and Crystal!!! 
+                    From the closet haul to the shopping trips, Crystal was there every step of the way! 
+                    She explained different types of fabrics, patterns and picked out pieces that were aligned with what I want my new look to be. 
+                    Crystal is patient and helped me discover my style. Because of Crystal not only do I look good but I FEEL good!! “ 
                     </p>
                     <CardFooter>
-                      <CardTitle tag="h4">Joe West</CardTitle>
-                      <h6 className="card-category">@georgewest</h6>
+                      <CardTitle tag="h4">Monica Guzman</CardTitle>
+                      <h6 className="card-category">@MonicaGuzman</h6>
                       <div className="card-avatar">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           <img

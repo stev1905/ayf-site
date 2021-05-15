@@ -29,8 +29,7 @@ function SectionPricing() {
               <Col className="ml-auto mr-auto text-center" md="6">
                 <h2 className="title">Pick Your Level Of Awakening</h2>
                 <h5 className="description">
-                  You have Free Unlimited Updates and Premium Support on each
-                  package.
+                See our selection of package options. All packages include email correspondences and check-ins.
                 </h5>
               </Col>
             </Row>
@@ -39,12 +38,13 @@ function SectionPricing() {
               <Col md="3">
                 <Card className="card-pricing" data-color="orange">
                   <CardBody>
+                  <CardTitle tag="h5">Fashionista Basic</CardTitle>
                     <div className="card-icon">
                       <span className="icon-simple">
                         <i className="nc-icon nc-basket" />
                       </span>
                     </div>
-                    <CardTitle tag="h3">$250</CardTitle>
+                    <CardTitle tag="h3">$225</CardTitle>
                     <p className="card-description">
                     Closet Haul: Together we will Discard, Keep, Create, & Style together in the comfort of your home or via webcam. 
                     </p>
@@ -56,6 +56,7 @@ function SectionPricing() {
               <Col md="3">
                 <Card className="card-pricing" data-color="yellow">
                   <CardBody>
+                  <CardTitle tag="h5">Fashionista Trendsetter</CardTitle>
                     <div className="card-icon">
                       <span className="icon-simple">
                         <i className="nc-icon nc-watch-time" />
@@ -73,14 +74,15 @@ function SectionPricing() {
               <Col md="3">
                 <Card className="card-pricing" data-color="green">
                   <CardBody>
+                  <CardTitle tag="h5">Fashionista FULL AWAKENING</CardTitle>
                     <div className="card-icon">
                       <span className="icon-simple">
                         <i className="nc-icon nc-settings" />
                       </span>
                     </div>
-                    <CardTitle tag="h3">$450</CardTitle>
+                    <CardTitle tag="h3">$425</CardTitle>
                     <p className="card-description">
-                    Closet Haul + 2 collaborative shopping trips. DIscard, Keep, Create, Collaborate (shopping trip), Style elevation - 
+                    Closet Haul + 2 collaborative shopping trips. Discard, Keep, Create, Collaborate (shopping trip), Style elevation - 
                     Together we will take it step further and create new ways of accessorizing (handbags, jewelry, headwear) 
                     </p>
                     <CardFooter>
@@ -91,12 +93,13 @@ function SectionPricing() {
               <Col md="3">
                 <Card className="card-pricing" data-color="blue">
                   <CardBody>
+                  <CardTitle tag="h5">Always a Fashionista</CardTitle>
                     <div className="card-icon">
                       <span className="icon-simple">
                         <i className="nc-icon nc-istanbul" />
                       </span>
                     </div>
-                    <CardTitle tag="h3">$3000</CardTitle>
+                    <CardTitle tag="h3">$2000</CardTitle>
                     <p className="card-description">
                       Services for the year including Special Events, Vacations & Seasonal styling.
                     </p>

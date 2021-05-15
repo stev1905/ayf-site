@@ -4,6 +4,35 @@
     padding-bottom: 0px;
 }
 
-#testimonials .section-image:before{
-    background-color: rgba(0, 0, 0, 0.5) !important;
+.testimonials-1.section-image {
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.testimonials-1.section-image:before {
+    background-color: #dddddd;
+}
+
+.fa.fa-quote-right {
+    height: 80px !important;
+}
+
+.card-testimonial .card-icon {
+    height: 80px;
+}
+
+.section-testimonials .card {
+    height: 570px;
+}
+
+.card-description {
+    height: 280px;
+}
+
+.card-testimonial .card-body .card-description {
+    color: black;
+}
+
+.card .card-description {
+    height: 286px;
 }
