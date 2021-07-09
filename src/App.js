@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionHeader from './Sections/SectionHeader/SectionHeader';
+import SectionHeader2 from './Sections/SectionHeader2/SectionHeader2';
 import SectionFeature from './Sections/SectionFeature/SectionFeature';
 import SectionFeatureTwo from './Sections/SectionFeatureTwo/SectionFeatureTwo'
 import SectionPricing from './Sections/SectionPricing/SectionPricing';
@@ -12,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <SectionHeader />
+        <SectionHeader2 />
         <SectionFeature />
         <SectionFeatureTwo />
         <SectionPricing />
