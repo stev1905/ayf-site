@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.section.section-cards.section-gold {
+    background: #fff;;
+    min-height: 790px;
+    height: 100vh;
+    padding: 10px;
+}
+
+.title1 {
+    color: black;
+    font-family: 'Parisienne', cursive !important;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.nav-section {
+    height: 5%;
+}
+
+.btn-neutral.btn-link{
+    color: black !important;
+}
+
+.container {
+ max-width: 1500px !important;
+ padding-top: 15px;
+}
+
+.grid__item.first-card > .grid__link > .grid__img.layer{
+    width: 370px !important;
+    height: 324px !important;
+}
+
+.grid__item.second-card > .grid__link > .grid__img.layer{
+    width: 370px !important;
+    height: 205px !important;
+}
+
+.grid__item.third-card > .grid__link > .grid__img.layer{
+    width: 285px !important;
+    height: 320px !important;
+}
+
+.grid__item.fourth-card > .grid__link > .grid__img.layer{
+    width: 370px !important;
+    height: 370px !important;
+}
+
+.grid__item.fifth-card > .grid__link > .grid__img.layer{
+    width: 370px !important;
+    height: 685px !important;
+}
+
+.grid__item.sixth-card > .grid__link > .grid__img.layer{
+    width: 370px !important;
+    height: 240px !important;
+}
+
+.grid__item.seventh-card > .grid__link > .grid__img.layer{
+    width: 370px !important;
+    height: 555px !important;
+}
+
+.grid__item.eight-card > .grid__link > .grid__img.layer{
+    width: 370px !important;
+    height: 495px !important;
+}
+
+.grid__item.ninth-card > .grid__link > .grid__img.layer{
+    width: 290px !important;
+    height: 440px !important;
+}
+
+.section-description {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+}
+
+.description {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
